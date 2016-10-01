@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/materialize.min.css">
+		<link rel="stylesheet" href="css/estilos.css">
+		<link rel="stylesheet" href="css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<meta charset="UTF-8"/>
+        <title>Contatos</title>
+    </head>
+    <body>
+	
+		<div class="container" id="novo">
+			<input id="nome" type="text" class="validate">
+			<input id="telefone" type="text" class="validate">
+			<button id="novoContato" name="action">Enviar</button>
+		</div>
+		
+		<div id="resultado">
+		</div>
+		
+		
+			<button id="listaContatos" class="waves-effect waves-teal btn-flat" name="action">Listar</button>
+			<button id="listaDuplicados" class="waves-effect waves-teal btn-flat" name="action">Duplicados</button>
+			
+			<div id="contato" >
+
+			</div>
+		
+		
+
+        <script type="text/javascript" src="js/jscommands.js"></script>
+        <script src="js/jquery-3.1.1.min.js"></script>
+
+		<script src="cordova.js"></script>
+    </body>
+</html>
